@@ -66,3 +66,9 @@ const vanish = document.querySelector('.content-destination img')
 vanish.addEventListener('dblclick', () => {
     vanish.style.display = 'none'
 })
+//plus one just in case
+const funny = document.querySelector('h1')
+
+window.addEventListener('resize', () => {
+   funny.textContent = "HELLO LAMBDA!"
+})
